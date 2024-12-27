@@ -3,7 +3,7 @@
 ## 📖 Introduction
 Welcome to the Smile Detection project! This repository showcases the implementation of a real-time smile detection system using Haarcascade classifiers in OpenCV. The project focuses on identifying smiles from facial features in video streams or images with high accuracy and efficiency. 🎉✨🎥
 
-![Smile Detection Demo] https://github.com/user-attachments/assets/0e6b1a98-2ee0-4453-bb63-b6451cd4fff5
+![Smile Detection Demo](https://github.com/user-attachments/assets/0e6b1a98-2ee0-4453-bb63-b6451cd4fff5)
 
 ## What's Inside?
 - **Source Code:** Contains the Python script for smile detection, leveraging Haarcascade and OpenCV.
