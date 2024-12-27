@@ -7,9 +7,9 @@ import imutils
 import cv2
 
 # Paths to the face cascade and pre-trained smile detector CNN
-cascade_path = 'D:\Jupyter python\OpenCv\material\haarcascade\haarcascade_frontalface_default.xml'
-model_path ='D:\Jupyter python\OpenCv\PyCharm\model.h5'
-             #"D:\Jupyter python\OpenCv\PyCharm\smile_detection_model_new.h5"
+cascade_path = 'D:\Jupyter python\OpenCv\material\haarcascade\haarcascade_frontalface_default.xml'  # Path for haarcascade file
+model_path ='D:\Jupyter python\OpenCv\PyCharm\model.h5'  # Path for model.h5 file
+             
 
 # Load the face detector cascade and smile detector CNN
 detector = cv2.CascadeClassifier(cascade_path)
@@ -19,7 +19,7 @@ model = load_model(model_path)
 print('[INFO] Starting webcam...')
 video_path = "D:\Jupyter python\OpenCv\material\Videos\WhatsApp Video 2024-01-27 at 1.23.04 PM.mp4"  # Replace with the path to your video file
 camera = cv2.VideoCapture(video_path)
-#camera = cv2.VideoCapture(0)
+ 
 
 # Keep looping
 while True:
